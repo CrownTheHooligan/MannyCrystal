@@ -1,0 +1,55 @@
+body {
+    background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTEzajZ3bHR5M25jbTg0ZWI1bXNlbDU4amZ6eHI2NHJtamN6YXZyaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KDhlXzSZddh0A3ucno/giphy.gif");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0%;
+    height: 100vh;
+    width: 100%;
+}
+
+.h1 {
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 25px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.video-container {
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 50%;
+}
+
